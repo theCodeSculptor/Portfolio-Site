@@ -15,6 +15,7 @@ main {
 
 h2, p, h1, h3, ul {
   margin: 0;
+  text-shadow: 5px 5px 8px black;
 }
 
 h1 {
@@ -28,7 +29,6 @@ h2 {
   margin-top: 30px;
   padding: 10px;
   color: white;
-  text-shadow: 5px 5px 8px black;
 }
 
 h3 {
@@ -120,6 +120,11 @@ footer {
   color: rgb(54, 194, 236);
 }
 
+.education:hover,
+.education-title {
+  color: rgb(54, 194, 236);
+}
+
 .abilities:hover,
 .abilities-title {
   color: rgb(54, 194, 236);
@@ -148,6 +153,7 @@ footer {
   border-radius: 10px;
   margin-top: 25px;
   margin-bottom: 15px;
+  box-shadow: 5px 5px 10px black;
 }
 /* ABOUT ME */
 
@@ -174,7 +180,7 @@ footer {
 }
 
 .project-divider {
-  background-color: rgb(245, 241, 241);
+  background-color: rgb(249, 249, 249);
   height: 3px;
 }
 
@@ -205,12 +211,13 @@ footer {
 }
 
 .project-links a:hover {
-  color: #FBA080;
+  color: rgb(248, 144, 107);
 }
 
 .technology-badges {
   margin-top: 10px;
   margin-bottom: 10px;
+  text-shadow: 5px 5px 10px black;
 }
 
 /* ABILITIES */
@@ -227,10 +234,23 @@ footer {
 .devicon-javascript-plain,
 .devicon-jquery-plain,
 .devicon-nodejs-plain,
-.devicon-github-plain {
+.devicon-github-plain,
+.devicon-msoffice-plain,
+.devicon-photoshop-plain,
+.devicon-premiere-plain,
+.devicon-protools-plain {
   font-size: 40px;
   margin-right: 5px;
   margin-left: 5px;
+  margin-bottom: 10px;
+}
+
+.devicon-msoffice-plain,
+.devicon-photoshop-plain,
+.devicon-premiere-plain,
+.devicon-protools-plain {
+  height: 40px;
+  width: 40px;
 }
 
 .skills-container ul {
@@ -329,8 +349,8 @@ footer {
   .headshot {
     display: block;
     height: 100%;
-    padding-top: 20px;
-    padding-left: 40px;
+    margin-left: 40px;
+    margin-top: 30px;
     width: 350px;
   }
 
@@ -400,15 +420,17 @@ footer {
     width: 50%;
   }
 
-  .project-description {
-    padding-right: 5px;
+ .project-description {
     text-align: left;
+    font-size: 25px;
+    padding-right: 5px;
     margin-bottom: 10px;
   }
 
   .project-description p {
     font-size: 20px;
   }
+
 
   .project-inner-container {
     display: flex;
@@ -418,15 +440,15 @@ footer {
 
   .project-description-container {
     border-right: solid 2px rgb(247, 243, 243);
-    position: relative;
+   
     width: 50%;
     padding-bottom: 60px;
   }
 
   .project-links {
     margin-bottom: 10px;
-    margin-top: 5px;
-    position: absolute;
+    margin-top: 55px;
+    
     bottom: 0;
     width: 100%;
   }
@@ -444,16 +466,17 @@ footer {
     padding-top: 10px;
   }
 
+  /* EDUCATION */
+ .education-container li {
+   font-size: 25px;
+ }
+
   /* ABILITIES */
   .abilities-flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     padding: 15px;
-  }
-
-  .education ul {
-    text-align: left;
   }
 
   /* CONTACT ME */
