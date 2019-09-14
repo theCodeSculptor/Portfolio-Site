@@ -1,9 +1,9 @@
 $("document").ready(function(){
   $("button").click(function(){
-  if($("button").text() == "☰"){
-  $("button").text("✖");
+  if($("button").text() == "✖"){
+  $("button").text("☰");
   }else{        
-  $("button").text("☰");      
+  $("button").text("✖");      
 }
 $(".nav-bar li").toggle("slow");
   });
