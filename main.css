@@ -101,13 +101,15 @@ footer {
   margin-left: 0;
 }
 
-.toggle {
+.navbar-toggler {
   width: 100%;
-  padding: 10px 20px;
+  padding: 8px 15px;
   text-align: left;
   box-sizing: border-box;
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
+  background: none;
+  border: none;
   display: none;
 }
 
@@ -516,17 +518,36 @@ footer {
 }
 
 @media (max-width: 450px) {
-  .toggle {
+.navbar-toggler {
     display: block;
+    cursor: pointer;
   }
+
+.nav-bar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+}
 
 .nav-bar ul {
   width: 100%;
-  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  border: none;
 }
 
+.nav-bar li {
+  width: 100%;
+  margin-left: 15px;
+  text-align: left;
+  background: rgba(61, 61, 61, 0.5); 
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  border: none;
+}
 
-.active {
+.nav-bar a {
   display: block;
 }
 
