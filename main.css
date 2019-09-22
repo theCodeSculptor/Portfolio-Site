@@ -181,6 +181,10 @@ footer {
   margin-bottom: 10px;
 }
 
+#about{
+  padding-top: 15px;
+}
+
 .bio-paragraphs {
   margin-bottom: 20px;
   text-align: center;
@@ -188,6 +192,7 @@ footer {
 
 .extra-bio {
 line-height: 1.3em;
+margin-top: 10px;
 }
 
 .extra-bio2 {
@@ -195,6 +200,10 @@ line-height: 1.3em;
 }
 
 /* PROJECTS */
+#projects {
+ padding-top: 10px;
+}
+
 .project-photo {
   width: 80%;
   box-shadow: 5px 5px 10px black;
@@ -209,6 +218,7 @@ line-height: 1.3em;
 .project-description {
   text-align: center;
   line-height: 1.3em;
+  margin-top: 10px;
 }
 
 .divider-text {
@@ -243,7 +253,14 @@ line-height: 1.3em;
   text-shadow: 5px 5px 10px black;
 }
 
+/* EDUCATION */
+#education{
+  padding-top: 10px;
+}
 /* ABILITIES */
+#abilities{
+  padding-top: 10px;
+}
 .abilities-flex-container {
   display: flex;
   justify-content: space-evenly;
