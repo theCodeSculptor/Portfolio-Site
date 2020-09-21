@@ -221,6 +221,10 @@ margin-top: 10px;
   margin-top: 10px;
 }
 
+.IVJS-opener {
+  font-style: italic;
+}
+
 .divider-text {
   font-family: 'Philosopher', sans-serif;
 }
@@ -461,7 +465,7 @@ margin-top: 10px;
   .project-flex-container h3 {
     font-size: 40px;
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 50px;
   }
 
   .project-photo {
@@ -584,6 +588,14 @@ margin-top: 10px;
   width: 40%;
   background: rgba(61, 61, 61, 0.9); 
 }
+  
+  .project-flex-container h3 {
+    margin-top: 25px;
+  }
+ 
+  .project-photo-container {
+    margin-bottom: 40px;
+  }
 
   }
 
