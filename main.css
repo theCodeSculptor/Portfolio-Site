@@ -13,7 +13,7 @@ main {
   text-align: center;
 }
 
-h2, p, h1, h3, ul {
+h2, p, h1, h3, h4 ul {
   margin: 0;
   text-shadow: 5px 5px 8px black;
 }
@@ -33,6 +33,12 @@ h2 {
 
 h3 {
   font-size: 23px;
+  padding: 10px;
+  color: white;
+}
+
+h4 {
+  font-size: 20px;
   padding: 10px;
   color: white;
 }
@@ -215,6 +221,12 @@ margin-top: 10px;
   height: 3px;
 }
 
+.Design-story {
+  text-align: center;
+  line-height: 1.3em;
+  margin-top: 10px;
+}
+
 .project-description {
   text-align: center;
   line-height: 1.3em;
@@ -378,6 +390,10 @@ margin-top: 10px;
   h3 {
     font-size: 27px;
   }
+  
+  h4 {
+    font-size: 28px;
+  }
 
   p {
     font-size: 25px;
@@ -481,6 +497,13 @@ margin-top: 10px;
     display: flex;
     align-items: center;
     width: 50%;
+  }
+  
+  .Design-story {
+    text-align: left;
+    font-size: 25px;
+    padding-right: 5px;
+    margin-bottom: 10px;
   }
 
  .project-description {
