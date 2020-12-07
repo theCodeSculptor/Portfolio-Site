@@ -32,13 +32,13 @@ h2 {
 }
 
 h3 {
-  font-size: 23px;
+  font-size: 25px;
   padding: 10px;
   color: white;
 }
 
 h4 {
-  font-size: 20px;
+  font-size: 21px;
   padding: 10px;
   color: white;
 }
@@ -241,6 +241,20 @@ margin-top: 10px;
   text-align: center;
   margin-bottom: 10px;
 }
+
+.Project-detail {
+    font-size:3vw;
+    color: white;
+    text-shadow: 5px 5px 8px black;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Merriweather', serif;
+}
+
+.Project-detail:hover {
+  color: rgb(54, 194, 236);
+}
+
 
 .divider-text {
   font-family: 'Philosopher', sans-serif;
@@ -486,7 +500,7 @@ margin-top: 10px;
   .project-flex-container h3 {
     font-size: 40px;
     margin-bottom: 20px;
-    margin-top: 50px;
+    margin-top: 40px;
   }
   
   .IVJS-opener {
@@ -494,7 +508,8 @@ margin-top: 10px;
 }
 
   .project-photo {
-    width: 90%;
+    width: 640px;
+    height: 360px;
     margin-left: 20px;
     margin-right: 20px;
     margin-bottom: 10px;
@@ -524,7 +539,11 @@ margin-top: 10px;
     font-size: 20px;
   }
 
-
+  .Project-detail {
+    font-size: 25px;
+    margin-top: 10px;
+    }
+  
   .project-inner-container {
     display: flex;
     flex-direction: row;
